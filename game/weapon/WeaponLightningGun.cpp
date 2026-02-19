@@ -140,7 +140,7 @@ void rvWeaponLightningGun::Spawn( void ) {
 	chainLightning.Clear( );
 	
 	// get hitscan range for our firing
-	range = weaponDef->dict.GetFloat( "range", "10000" );
+	range = 100000;
 
 	// Initialize tubes
 	for ( i = 0; i < LIGHTNINGGUN_NUM_TUBES; i ++ ) {
@@ -308,10 +308,10 @@ void rvWeaponLightningGun::Think ( void ) {
 	// Inflict damage on all targets being attacked
 	if ( !gameLocal.isClient && gameLocal.time >= nextAttackTime ) {
 		int    i;
-		float  power = 1.0f;
+		float  power = 10.0f;
 		idVec3 dir;
 		
-		owner->inventory.UseAmmo( ammoType, ammoRequired );
+		owner->inventory.UseAmmo( ammoType, 0 );
 		
 		dir = tr.endpos - origin;
 		dir.Normalize ( );
@@ -327,7 +327,7 @@ void rvWeaponLightningGun::Think ( void ) {
 
 	// Play the lightning crawl effect every so often when doing damage
 	if ( gameLocal.time > nextCrawlTime ) {
-		nextCrawlTime = gameLocal.time + SEC2MS(spawnArgs.GetFloat ( "crawlDelay", ".3" ));
+		nextCrawlTime = gameLocal.time;
 	}
 }
 
@@ -347,7 +347,7 @@ void rvWeaponLightningGun::Attack ( idEntity* ent, const idVec3& dir, float powe
 	if ( !gameLocal.isMultiplayer && gameLocal.time > nextCrawlTime ) {
 		if ( ent->IsType( idActor::GetClassType() ) ) {
 			rvClientCrawlEffect* effect;
-			effect = new rvClientCrawlEffect( gameLocal.GetEffect( weaponDef->dict, "fx_crawl" ), ent, SEC2MS( spawnArgs.GetFloat ( "crawlTime", ".2" ) ) );
+			effect = new rvClientCrawlEffect( gameLocal.GetEffect( weaponDef->dict, "fx_crawl" ), ent, 0  );
 			effect->Play( gameLocal.time, false );
 		}
 	}	
@@ -373,19 +373,13 @@ void rvWeaponLightningGun::UpdateChainLightning ( void ) {
 	idActor*			target;
 
 	// Chain lightning not enabled
-	if ( !chainLightningRange[0] ) {
-		return;
-	}
 
 	// Need to have a primary target that is not on the same team for chain lightning to work
 	path   = &currentPath;
 	target = dynamic_cast<idActor*>(path->target.GetEntity());
-	if ( !target || !target->health || target->team == owner->team ) {
-		StopChainLightning ( );
-		return;
-	}
 	
-	currentPath.target->fl.takedamage = false;
+	
+	currentPath.target->fl.takedamage = true;
 	
 	// Look through the chain lightning list and remove any paths that are no longer valid due
 	// to their range or visibility
@@ -443,13 +437,7 @@ void rvWeaponLightningGun::UpdateChainLightning ( void ) {
 	while ( chainLightning.Num ( ) + 1 < LIGHTNINGGUN_MAX_PATHS ) {	
 		for ( target = aiManager.GetEnemyTeam ( (aiTeam_t)owner->team ); target; target = target->teamNode.Next() ) {
 			// Must be a valid entity that takes damage to chain lightning too
-			if ( !target || target->health <= 0 || !target->fl.takedamage ) {
-				continue;
-			}
-			// Must be within starting chain path range
-			if ( (target->GetPhysics()->GetOrigin() - path->target->GetPhysics()->GetOrigin()).LengthSqr() > Square ( chainLightningRange[0] ) ) {
-				continue;
-			}
+			
 			
 			// Make sure we can trace to the target from the current path
 			trace_t	tr;
@@ -458,6 +446,10 @@ void rvWeaponLightningGun::UpdateChainLightning ( void ) {
 			origin += target->GetPhysics()->GetGravityNormal() * (gameLocal.random.RandomFloat() * 20.0f - 10.0f);
 // RAVEN BEGIN
 // ddynerman: multiple clip worlds
+			gameLocal.TracePoint ( owner, tr, path->origin, origin, MASK_SHOT_RENDERMODEL, path->target );
+			origin += target->GetPhysics()->GetGravityNormal() * (gameLocal.random.RandomFloat() * 20.0f - 10.0f);
+			gameLocal.TracePoint ( owner, tr, path->origin, origin, MASK_SHOT_RENDERMODEL, path->target );
+			origin += target->GetPhysics()->GetGravityNormal() * (gameLocal.random.RandomFloat() * 20.0f - 10.0f);
 			gameLocal.TracePoint ( owner, tr, path->origin, origin, MASK_SHOT_RENDERMODEL, path->target );
 // RAVEN END
 			if ( tr.c.entityNum != target->entityNumber ) {
@@ -920,15 +912,18 @@ void rvLightningPath::UpdateEffects ( const idVec3& from, const idDict& dict ) {
 	dir = origin - from;
 	dir.Normalize();
 	
-	// Trail effect
-	if ( !trailEffect ) {
-		trailEffect = gameLocal.PlayEffect ( gameLocal.GetEffect ( dict, "fx_trail_world" ), from, dir.ToMat3(), true, origin );		
-	} else {
-		trailEffect->SetOrigin ( from );
-		trailEffect->SetAxis ( dir.ToMat3() );
-		trailEffect->SetEndOrigin ( origin );
+	for (int i = 0; i < 3; i++) {
+
+		// Trail effect
+		if (!trailEffect) {
+			trailEffect = gameLocal.PlayEffect(gameLocal.GetEffect(dict, "fx_trail_world"), from, dir.ToMat3(), true, origin);
+		}
+		else {
+			trailEffect->SetOrigin(from);
+			trailEffect->SetAxis(dir.ToMat3());
+			trailEffect->SetEndOrigin(origin);
+		}
 	}
-	
 	// Impact effect
 	if ( !target || target.GetEntityNum ( ) == ENTITYNUM_NONE ) {
 		if ( impactEffect ) {
