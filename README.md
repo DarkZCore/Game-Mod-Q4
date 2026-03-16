@@ -15,3 +15,6 @@ Pick up different power ups along the way to help you with your journey.
 Timemachine - allows you to fly!
 Senzubean - heals you!
 Armor - Gives you extra shield!
+Dragon Balls - increase ki based attack power up
+
+Press H to toggle help and J to disable
