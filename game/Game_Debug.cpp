@@ -370,3 +370,5 @@ void rvGameDebug::JumpPrev ( void ) {
 	}
 	JumpTo ( ( jumpIndex + jumpPoints.Num() - 1 ) % jumpPoints.Num() );
 }
+
+

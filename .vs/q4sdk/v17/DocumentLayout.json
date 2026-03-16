@@ -1,0 +1,731 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_local.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Game_local.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Game_local.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\dborb.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Moveable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Moveable.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\MultiplayerGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\MultiplayerGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Projectile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponLightningGun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponLightningGun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponMachinegun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponMachinegun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponDarkMatterGun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponDarkMatterGun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponGrenadeLauncher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponGrenadeLauncher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponHyperblaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponHyperblaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\ui\\UserInterface.h||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ui\\UserInterface.h||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\script\\Script_Thread.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\script\\Script_Thread.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Projectile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponRocketLauncher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponRocketLauncher.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\SysCmds.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\SysCmds.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Weapon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Misc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Misc.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\physics\\Force_Field.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\physics\\Force_Field.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\physics\\Force_Field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\physics\\Force_Field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponGauntlet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponGauntlet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_Debug.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Game_Debug.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_Debug.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Game_Debug.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EF9123-B7C3-4F2F-A351-747B595BB534}|mpgame.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\mpgame\\gamesys\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F2EF9123-B7C3-4F2F-A351-747B595BB534}|mpgame.vcxproj|solutionrelative:mpgame\\gamesys\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EF9123-B7C3-4F2F-A351-747B595BB534}|mpgame.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\mpgame\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F2EF9123-B7C3-4F2F-A351-747B595BB534}|mpgame.vcxproj|solutionrelative:mpgame\\gamesys\\SysCmds.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\renderer\\RenderWorld.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:renderer\\RenderWorld.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Game_Log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\player.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mario\\AppData\\Local\\Temp\\7zOCFEA2A6E\\player.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Player_States.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\Player_States.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponBlaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\weapon\\WeaponBlaster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\PlayerView.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\PlayerView.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\armor.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\armor.ase||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\senzushield.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\mario\\Downloads\\dborb.def||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2EF9123-B7C3-4F2F-A351-747B595BB534}|mpgame.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\mpgame\\weapon\\WeaponLightningGun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F2EF9123-B7C3-4F2F-A351-747B595BB534}|mpgame.vcxproj|solutionrelative:mpgame\\weapon\\WeaponLightningGun.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\SaveGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\SaveGame.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57430}|game.vcxproj|solutionrelative:game\\gamesys\\Class.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57400}|idlib.vcxproj|C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\idlib\\math\\Simd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{49BEC5C6-B964-417A-851E-808886B57400}|idlib.vcxproj|solutionrelative:idlib\\math\\Simd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dborb.def",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\dborb.def",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\dborb.def",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\dborb.def",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\dborb.def",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2026-03-16T02:11:00.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game_local.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_local.h",
+              "RelativeDocumentMoniker": "game\\Game_local.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_local.h",
+              "RelativeToolTip": "game\\Game_local.h",
+              "ViewState": "AgIAAGgDAAAAAAAAAAArwJUDAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-15T23:48:06.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WeaponMachinegun.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponMachinegun.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponMachinegun.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponMachinegun.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponMachinegun.cpp",
+              "ViewState": "AgIAAFAAAAAAAAAAAAArwGsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:11:58.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Game_local.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_local.cpp",
+              "RelativeDocumentMoniker": "game\\Game_local.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_local.cpp",
+              "RelativeToolTip": "game\\Game_local.cpp",
+              "ViewState": "AgIAABcHAAAAAAAAAAAAwEMHAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T22:10:56.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Player.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Player.cpp",
+              "RelativeDocumentMoniker": "game\\Player.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Player.cpp",
+              "RelativeToolTip": "game\\Player.cpp",
+              "ViewState": "AgIAAFElAAAAAAAAAAArwGQlAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-12T10:29:05.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WeaponLightningGun.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponLightningGun.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponLightningGun.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponLightningGun.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponLightningGun.cpp",
+              "ViewState": "AgIAAOoAAAAAAAAAAAArwAMBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:01:09.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Projectile.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Projectile.cpp",
+              "RelativeDocumentMoniker": "game\\Projectile.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Projectile.cpp",
+              "RelativeToolTip": "game\\Projectile.cpp",
+              "ViewState": "AgIAAEIFAAAAAAAAAAArwFsFAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:35:02.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MultiplayerGame.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\MultiplayerGame.cpp",
+              "RelativeDocumentMoniker": "game\\MultiplayerGame.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\MultiplayerGame.cpp",
+              "RelativeToolTip": "game\\MultiplayerGame.cpp",
+              "ViewState": "AgIAAH0LAAAAAAAAAAArwJYLAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:20:16.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Moveable.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Moveable.cpp",
+              "RelativeDocumentMoniker": "game\\Moveable.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Moveable.cpp",
+              "RelativeToolTip": "game\\Moveable.cpp",
+              "ViewState": "AgIAAAcCAAAAAAAAAAA2wBwCAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:20:15.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WeaponDarkMatterGun.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponDarkMatterGun.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponDarkMatterGun.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponDarkMatterGun.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponDarkMatterGun.cpp",
+              "ViewState": "AgIAACcBAAAAAAAAAAA2wEcBAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T22:55:48.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WeaponGrenadeLauncher.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponGrenadeLauncher.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponGrenadeLauncher.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponGrenadeLauncher.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponGrenadeLauncher.cpp",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAYwJcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:09:09.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "WeaponHyperblaster.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponHyperblaster.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponHyperblaster.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponHyperblaster.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponHyperblaster.cpp",
+              "ViewState": "AgIAANEAAAAAAAAAAAA2wPQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:08:18.314Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserInterface.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\ui\\UserInterface.h",
+              "RelativeDocumentMoniker": "ui\\UserInterface.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\ui\\UserInterface.h",
+              "RelativeToolTip": "ui\\UserInterface.h",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAC8AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-12T10:31:37.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Script_Thread.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\script\\Script_Thread.h",
+              "RelativeDocumentMoniker": "game\\script\\Script_Thread.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\script\\Script_Thread.h",
+              "RelativeToolTip": "game\\script\\Script_Thread.h",
+              "ViewState": "AgIAALgAAAAAAAAAAAAAAMcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-15T23:35:49.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Projectile.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Projectile.h",
+              "RelativeDocumentMoniker": "game\\Projectile.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Projectile.h",
+              "RelativeToolTip": "game\\Projectile.h",
+              "ViewState": "AgIAAMIAAAAAAAAAAAA2wOEAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-15T23:35:05.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "WeaponRocketLauncher.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponRocketLauncher.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponRocketLauncher.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponRocketLauncher.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponRocketLauncher.cpp",
+              "ViewState": "AgIAAKwAAAAAAAAAAAA2wMEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:35:09.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "SysCmds.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\SysCmds.h",
+              "RelativeDocumentMoniker": "game\\gamesys\\SysCmds.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\SysCmds.h",
+              "RelativeToolTip": "game\\gamesys\\SysCmds.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-15T23:28:49.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Misc.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Misc.cpp",
+              "RelativeDocumentMoniker": "game\\Misc.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Misc.cpp",
+              "RelativeToolTip": "game\\Misc.cpp",
+              "ViewState": "AgIAANgEAAAAAAAAAAAAANgEAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:20:14.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Force_Field.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\physics\\Force_Field.h",
+              "RelativeDocumentMoniker": "game\\physics\\Force_Field.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\physics\\Force_Field.h",
+              "RelativeToolTip": "game\\physics\\Force_Field.h",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-15T23:20:12.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Force_Field.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\physics\\Force_Field.cpp",
+              "RelativeDocumentMoniker": "game\\physics\\Force_Field.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\physics\\Force_Field.cpp",
+              "RelativeToolTip": "game\\physics\\Force_Field.cpp",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAAAPsAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T23:20:11.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Weapon.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Weapon.h",
+              "RelativeDocumentMoniker": "game\\Weapon.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Weapon.h",
+              "RelativeToolTip": "game\\Weapon.h",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-15T01:30:37.819Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SysCmds.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\SysCmds.cpp",
+              "RelativeDocumentMoniker": "game\\gamesys\\SysCmds.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\SysCmds.cpp",
+              "RelativeToolTip": "game\\gamesys\\SysCmds.cpp",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAABYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T06:39:40.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Player.h",
+              "RelativeDocumentMoniker": "game\\Player.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Player.h",
+              "RelativeToolTip": "game\\Player.h",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAABEBAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-14T21:22:14.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Game_Log.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_Log.cpp",
+              "RelativeDocumentMoniker": "game\\Game_Log.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_Log.cpp",
+              "RelativeToolTip": "game\\Game_Log.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T22:20:39.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SysCmds.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\mpgame\\gamesys\\SysCmds.cpp",
+              "RelativeDocumentMoniker": "mpgame\\gamesys\\SysCmds.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\mpgame\\gamesys\\SysCmds.cpp",
+              "RelativeToolTip": "mpgame\\gamesys\\SysCmds.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAjwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T22:37:15.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Class.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\mpgame\\gamesys\\Class.cpp",
+              "RelativeDocumentMoniker": "mpgame\\gamesys\\Class.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\mpgame\\gamesys\\Class.cpp",
+              "RelativeToolTip": "mpgame\\gamesys\\Class.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T22:37:25.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Game_Debug.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_Debug.h",
+              "RelativeDocumentMoniker": "game\\Game_Debug.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_Debug.h",
+              "RelativeToolTip": "game\\Game_Debug.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAEEAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-03-15T22:11:06.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "WeaponGauntlet.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponGauntlet.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponGauntlet.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponGauntlet.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponGauntlet.cpp",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T01:48:43.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Game_Debug.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_Debug.cpp",
+              "RelativeDocumentMoniker": "game\\Game_Debug.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Game_Debug.cpp",
+              "RelativeToolTip": "game\\Game_Debug.cpp",
+              "ViewState": "AgIAAGABAAAAAAAAAAA2wHUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T01:29:54.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "WeaponBlaster.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponBlaster.cpp",
+              "RelativeDocumentMoniker": "game\\weapon\\WeaponBlaster.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\weapon\\WeaponBlaster.cpp",
+              "RelativeToolTip": "game\\weapon\\WeaponBlaster.cpp",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T01:30:35.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RenderWorld.h",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\renderer\\RenderWorld.h",
+              "RelativeDocumentMoniker": "renderer\\RenderWorld.h",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\renderer\\RenderWorld.h",
+              "RelativeToolTip": "renderer\\RenderWorld.h",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAjwGUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-02-19T06:36:23.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "player.def",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\player.def",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\player.def",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\player.def",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\player.def",
+              "ViewState": "AgIAAFIFAAAAAAAAAADgv2cFAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2026-03-15T01:55:44.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Player_States.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Player_States.cpp",
+              "RelativeDocumentMoniker": "game\\Player_States.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\Player_States.cpp",
+              "RelativeToolTip": "game\\Player_States.cpp",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-15T02:22:05.623Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "player.def",
+              "DocumentMoniker": "C:\\Users\\mario\\AppData\\Local\\Temp\\7zOCFEA2A6E\\player.def",
+              "RelativeDocumentMoniker": "..\\..\\AppData\\Local\\Temp\\7zOCFEA2A6E\\player.def",
+              "ToolTip": "C:\\Users\\mario\\AppData\\Local\\Temp\\7zOCFEA2A6E\\player.def",
+              "RelativeToolTip": "..\\..\\AppData\\Local\\Temp\\7zOCFEA2A6E\\player.def",
+              "ViewState": "AgIAAKQFAAAAAAAAAAAcwMcFAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2026-03-15T02:30:05.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "armor.def",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\armor.def",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\armor.def",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\armor.def",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\armor.def",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2026-03-12T13:19:08.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "PlayerView.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\PlayerView.cpp",
+              "RelativeDocumentMoniker": "game\\PlayerView.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\PlayerView.cpp",
+              "RelativeToolTip": "game\\PlayerView.cpp",
+              "ViewState": "AgIAANIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-14T21:19:28.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "senzushield.def",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\senzushield.def",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\senzushield.def",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\senzushield.def",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\def\\senzushield.def",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2026-03-12T13:17:37.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "armor.ase",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\armor.ase",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\armor.ase",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\armor.ase",
+              "RelativeToolTip": "..\\..\\..\\..\\Program Files (x86)\\Steam\\steamapps\\common\\Quake 4\\dragonball\\armor.ase",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASbSURBVFhH7ZjNaxNpHMc/85KXJk46JkjGSrohmppaGqos6wsBCyLoKujF\u002BrI30d3jLuzCon\u002BA7CJ42B66p\u002B5VBW8q9uLFILgu1DdcoSBbS0u7WGJM0sQMmdlLJ5jHpCTNJnrwc0n4/uY7fJl5fs/zzCPZto1t2wDV308BSZKQJcmWbNvGNE3y\u002BXxoZmbmm6WlpR\u002BBiGjoEvPAxNatWyfj8fiiqqpItm2TyWS0dDr9syzL3wcCAb/f7xeNHceyLIrFIm/fvs1blvVbKpX6Vdf1nBNwKJ1OT4VCob5YLIamaaK/41iWRaFQ4OXLlywvL8\u002BmUqmvdV3/W16t9wB9wWCQDRs2CNbuIMsyfr\u002BfQCDA6hDzATgBAVAUBUmS3pe6iizLeDweVnNJzp9Pms8B2\u002BWTD\u002BhMM1\u002Bm0\u002Bk/E4kEfX194jUAmKbJ5OSkKBOJRDAMg4cPH9bosixz6NAh7t69S6lUqqm5XC7Onj1bozksLCzw4sULUqnUV7qu/9WxJ2hZlihVMU1TlBrSdkBZrn8LVVUb1hrp9Wj\u002ByjooioJhGKIMwKZNm2i0ZDby1KOtgIZhMDQ0JMr4fD4GBwedVaEGVVXZt2\u002BfKDekpYAejwePx4Ou6\u002BzatYujR4/icrlQFKVaMwyD0dFR4vF4dflyauFwmMOHDxMMBsVbN6TpLq5UKjx9\u002BlSU0TQNv9/P4uKiWCIWizE7O0ulUhFLjIyMiBLU6WJVvKAR5XKZS5cuiTIjIyNs376da9euiSUuXrzI\u002BPg4uVxOLHH9\u002BnVRqktLr/hj0HbA1d1Hx2groKZppFIpUQZgYGCAUCgkygCd62IHt9tNNBrl1KlT7N69u6bmcrmIx\u002BMcO3bsg4Zzu90kEglOnDhRo69F002iqionT56E9\u002Ba5aDQKwI4dO6o1r9dLIpEgGo2iKArHjx\u002BnXC5XfcPDwx8EX4ump5luIU4z63rF3eRzwHZpaww\u002BePCA6elp\u002Bvv7icfj3L9/n1KpxIEDB3j9\u002BnV1E5tIJDh48KBor8v/Ngbv3bvHxMQErHbujRs3mJmZIRAIUCwWefz4Mc\u002BfPycQCODz\u002BUR706w74NWrV9mzZw/nzp1j//79OGc8R44cqW7Btm3bxtjYGHv37hXtTbPugEtLS2zZsgVVVVEUhdOnT5PP5zl//jyPHj0C4ObNm4yNjTE1NSXam2bdAQcHB3n27Bnz8/Pkcjk8Hg8XLlwgFotx\u002B/ZtAEZHR7l8\u002BXJLS5vIugOeOXOGubk5rly5wp07d7h161Z1a5VMJgEIBoPEYjF6e3tFe9O01cWvXr0im82i6zoAmUwGr9dLJBIhm81i2zbhcLilj6Q1u9g0zZZOWfv7\u002BxkeHiYSiRCJREgmkwwMDNDT04NhGGzevLmlcJVKhZWVlRrNceeBf7LZLMVicc1v2k5hWRamafLu3TuAOaCA84oLhYJ/enr6hzdv3vwUCoV6NU3r\u002BEZUZPUYmuXl5aymab/v3LnzF5/Pl5WcQ/RcLtf35MmT7zKZzLdAWLxBl/h348aNfySTyXFN0xZwnqAz7lZWVrRyufwF4BWdXaLkdrvnfD5f1hGkVpriY/AfB0/CctAXGnQAAAAASUVORK5CYII=",
+              "WhenOpened": "2026-03-12T12:35:37.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "dborb.def",
+              "DocumentMoniker": "C:\\Users\\mario\\Downloads\\dborb.def",
+              "RelativeDocumentMoniker": "..\\..\\Downloads\\dborb.def",
+              "ToolTip": "C:\\Users\\mario\\Downloads\\dborb.def",
+              "RelativeToolTip": "..\\..\\Downloads\\dborb.def",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001913|",
+              "WhenOpened": "2026-03-12T09:51:20.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "WeaponLightningGun.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\mpgame\\weapon\\WeaponLightningGun.cpp",
+              "RelativeDocumentMoniker": "mpgame\\weapon\\WeaponLightningGun.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\mpgame\\weapon\\WeaponLightningGun.cpp",
+              "RelativeToolTip": "mpgame\\weapon\\WeaponLightningGun.cpp",
+              "ViewState": "AgIAAEEBAAAAAAAAAAAAAGUBAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T07:11:37.607Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "SaveGame.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\SaveGame.cpp",
+              "RelativeDocumentMoniker": "game\\gamesys\\SaveGame.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\SaveGame.cpp",
+              "RelativeToolTip": "game\\gamesys\\SaveGame.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T06:39:35.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Class.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\Class.cpp",
+              "RelativeDocumentMoniker": "game\\gamesys\\Class.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\game\\gamesys\\Class.cpp",
+              "RelativeToolTip": "game\\gamesys\\Class.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T06:38:30.772Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Simd.cpp",
+              "DocumentMoniker": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\idlib\\math\\Simd.cpp",
+              "RelativeDocumentMoniker": "idlib\\math\\Simd.cpp",
+              "ToolTip": "C:\\Users\\mario\\.ssh\\Game-Mod-Q4\\idlib\\math\\Simd.cpp",
+              "RelativeToolTip": "idlib\\math\\Simd.cpp",
+              "ViewState": "AgIAANoFAAAAAAAAAAAjwO8FAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-02-19T06:35:30.424Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

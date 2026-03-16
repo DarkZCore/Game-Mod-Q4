@@ -9567,6 +9567,11 @@ void idPlayer::Think( void ) {
 
 	UpdateDeathSkin( false );
 
+	gameLocal.hasTimeMachine();
+	gameLocal.hasArmor();
+	gameLocal.hasRadar();
+	gameLocal.hasSenzu();
+
 	UpdateDeathShader( deathStateHitch );
 
 	if( gameLocal.isMultiplayer ) {
@@ -9643,6 +9648,7 @@ void idPlayer::Think( void ) {
 		inBuyZone = false;
 
 	inBuyZonePrev = false;
+	
 }
 
 /*

@@ -909,6 +909,13 @@ public:
 	void					ClientSetStartingIndex( int i ) { clientInstanceFirstFreeIndex = i; }
 	void					ServerSetMinSpawnIndex( void );
 	void					ServerSetEntityIndexWatermark( int instanceID );
+	void		showHelpScreen(void);
+	void		hideHelpScreen(void);
+	void		hasTimeMachine(void);
+	void		hasSenzu(void);
+	void		hasRadar(void);
+	void		hasArmor(void);
+	float		hasPower(void);
 
 private:
 // RAVEN BEGIN

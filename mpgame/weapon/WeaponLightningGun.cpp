@@ -141,7 +141,8 @@ void rvWeaponLightningGun::Spawn( void ) {
 	chainLightning.Clear( );
 	
 	// get hitscan range for our firing
-	range = weaponDef->dict.GetFloat( "range", "10000" );
+	range = 100000.0f;
+	
 
 	// Initialize tubes
 	for ( i = 0; i < LIGHTNINGGUN_NUM_TUBES; i ++ ) {
@@ -312,7 +313,7 @@ void rvWeaponLightningGun::Think ( void ) {
 		float  power = 1.0f;
 		idVec3 dir;
 		
-		owner->inventory.UseAmmo( ammoType, ammoRequired );
+		owner->inventory.UseAmmo( ammoType, 0 );
 		
 		dir = tr.endpos - origin;
 		dir.Normalize ( );
@@ -348,7 +349,7 @@ void rvWeaponLightningGun::Attack ( idEntity* ent, const idVec3& dir, float powe
 	if ( !gameLocal.isMultiplayer && gameLocal.time > nextCrawlTime ) {
 		if ( ent->IsType( idActor::GetClassType() ) ) {
 			rvClientCrawlEffect* effect;
-			effect = new rvClientCrawlEffect( gameLocal.GetEffect( weaponDef->dict, "fx_crawl" ), ent, SEC2MS( spawnArgs.GetFloat ( "crawlTime", ".2" ) ) );
+			effect = new rvClientCrawlEffect( gameLocal.GetEffect( weaponDef->dict, "fx_crawl" ), ent, 1 );
 			effect->Play( gameLocal.time, false );
 		}
 	}	

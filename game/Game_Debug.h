@@ -68,6 +68,7 @@ public:
 	void		JumpTo				( int jumpIndex );
 	void		JumpNext			( void );
 	void		JumpPrev			( void );	
+
 	
 private:		
 

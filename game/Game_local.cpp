@@ -1818,6 +1818,150 @@ void idGameLocal::ServerSetEntityIndexWatermark( int instanceID ) {
 	instancesEntityIndexWatermarks[ instanceID ] = firstFreeIndex;
 }
 
+void idGameLocal::showHelpScreen(void)
+{
+	gameLocal.GetLocalPlayer()->GetHud()->HandleNamedEvent("showHelp");
+
+}
+
+
+
+void idGameLocal::hideHelpScreen(void)
+{
+	gameLocal.GetLocalPlayer()->GetHud()->HandleNamedEvent("quitHelp");
+}
+bool hasTimeMachineBool = false;
+void idGameLocal::hasTimeMachine(void)
+{
+	
+	float time = gameLocal.GetLocalPlayer()->GetHud()->GetStateFloat("hasTimeMachine");
+	if (time <= 0.0f) {
+		return;
+	}
+	if (!hasTimeMachineBool) {
+		cmdSystem->BufferCommandText(CMD_EXEC_NOW, "noclip 1");
+	}
+	hasTimeMachineBool = true;
+	
+}
+
+void idGameLocal::hasSenzu(void)
+{
+	float senzu = gameLocal.GetLocalPlayer()->GetHud()->GetStateFloat("hasSenzu");
+	if (senzu <= 0.0f) {
+		return;
+	}
+	gameLocal.GetLocalPlayer()->GetHud()->SetStateFloat("hasSenzu",0);
+	cmdSystem->BufferCommandText(CMD_EXEC_NOW, "give health");
+}
+bool isDragonBallValid(idEntity* ent) {
+	if (!ent) return false;
+
+	// 1. Check if it's actually a Dragon Ball based on classname
+	if (idStr::FindText(ent->GetEntityDefName(), "dborb", false) == -1) {
+		return false;
+	}
+
+	// 2. Check if it's hidden (collected but not yet removed from memory)
+	if (ent->IsHidden()) {
+		return false;
+	}
+
+	return true;
+}
+idEntity* currentRadarTarget = NULL;
+void idGameLocal::hasRadar(void)
+{
+	idPlayer* player = gameLocal.GetLocalPlayer();
+	if (!player || !player->GetHud()) {
+		return;
+	}
+
+	// 1. Check if the player even HAS the radar item
+	float radar = player->GetHud()->GetStateFloat("hasRadar");
+	if (radar <= 0.0f) {
+		return;
+	}
+
+	idVec3 playerPos = player->GetPhysics()->GetOrigin();
+	idEntity* bestBall = NULL;
+	float minDistance = 999999.0f;
+
+	// 2. Loop through all entities to find the nearest valid Dragon Ball
+	for (int i = 0; i < MAX_GENTITIES; i++) {
+		idEntity* ent = gameLocal.entities[i];
+
+		// Use your existing validation check (ensure it checks !ent->IsHidden())
+		if (ent && isDragonBallValid(ent)) {
+			float dist = (ent->GetPhysics()->GetOrigin() - playerPos).Length();
+
+			// Hysteresis: Prevents the arrow from flickering if two balls are close
+			float bias = (ent == currentRadarTarget) ? -100.0f : 0.0f;
+
+			if (dist + bias < minDistance) {
+				minDistance = dist;
+				bestBall = ent;
+			}
+		}
+	}
+
+	// 3. Update our global tracking pointer
+	currentRadarTarget = bestBall;
+
+	// 4. Update the GUI based on whether a target exists
+	if (currentRadarTarget == NULL) {
+		// No balls left or none found: Hide the arrow
+		player->hud->SetStateInt("radar_visible", 0);
+		player->hud->StateChanged(gameLocal.time);
+		return;
+	}
+	else {
+		// Target found: Show the arrow and calculate rotation
+		player->hud->SetStateInt("radar_visible", 1);
+
+		idVec3 ballPos = currentRadarTarget->GetPhysics()->GetOrigin();
+		idVec3 dir = ballPos - playerPos;
+
+		// Normalize direction and convert to angles
+		dir.Normalize();
+		idAngles dirAngles = dir.ToAngles();
+		idAngles playerView = player->viewAngles;
+
+		// Calculate the relative yaw (horizontal angle)
+		float relativeYaw = dirAngles.yaw - playerView.yaw;
+
+		// Phase Wrap: Keeps the angle between -180 and 180 degrees
+		relativeYaw = idMath::AngleNormalize180(relativeYaw);
+
+		// Update the HUD state
+		player->hud->SetStateFloat("radarAngle", relativeYaw);
+
+		// Debug output to console
+		gameLocal.Printf("Target: %s | Angle: %.2f\n", currentRadarTarget->name.c_str(), relativeYaw);
+
+		// Pulse the GUI to redraw the rotation
+		player->hud->StateChanged(gameLocal.time);
+	}
+}
+
+void idGameLocal::hasArmor(void)
+{
+	float armor = gameLocal.GetLocalPlayer()->GetHud()->GetStateFloat("hasArmor");
+	if (armor <= 0.0f) {
+		return;
+	}
+		cmdSystem->BufferCommandText(CMD_EXEC_NOW, "give armor");
+
+}
+
+float idGameLocal::hasPower(void)
+{
+	float power = gameLocal.GetLocalPlayer()->GetHud()->GetStateFloat("hasOrbs");
+	return power;
+}
+
+
+
 /*
 ===============
 idGameLocal::ServerSetMinSpawnIndex
