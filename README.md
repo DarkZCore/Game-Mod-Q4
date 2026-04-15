@@ -5,13 +5,14 @@ Install Pak: https://drive.google.com/file/d/1IOBdX1fqP_FH45CztW_4q3_cGqbDsaA7/v
 Features:
 Survive endless wave of monsters coming your way! They should explode after you die.
 
-Upcoming 5 ki based attacks coming soon!
+ 5 ki based attacks
 
-Melee attack system coming soon!
+Melee attack system
 
 Find find the 7 dragon balls to escape onslaught of enemies. (Currently you can only pick them up)
 
 Pick up different power ups along the way to help you with your journey.
+Radar - guides you to the dragon balls
 Timemachine - allows you to fly!
 Senzubean - heals you!
 Armor - Gives you extra shield!
